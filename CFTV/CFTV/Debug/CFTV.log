@@ -1,26 +1,30 @@
-﻿Build started 3/31/2014 5:33:17 PM.
-     1>Project "D:\YingchaoDoc2\codes\TV\CFTV\CFTV\CFTV.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
+﻿Build started 4/4/2014 7:39:27 PM.
+     1>Project "D:\YingchaoDoc2\codes\TV\CFTV\CFTV\CFTV.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\CFTV.lastbuildstate".
+       InitializeBuildStatus:
          Creating "Debug\CFTV.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\YingchaoDoc2\codes\ann_1.1.2_MS_Win32_bin\ann_1.1.2_MS_Win32_bin /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
        ManifestResourceCompile:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\CFTV.exe.embed.manifest.res" Debug\CFTV_manifest.rc 
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\YingchaoDoc2\codes\TV\CFTV\Debug\CFTV.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CFTV.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\YingchaoDoc2\codes\TV\CFTV\Debug\CFTV.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\YingchaoDoc2\codes\TV\CFTV\Debug\CFTV.lib" /MACHINE:X86 Debug\CFTV.exe.embed.manifest.res
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\YingchaoDoc2\codes\TV\CFTV\Debug\CFTV.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\YingchaoDoc2\codes\ann_1.1.2_MS_Win32_bin\ann_1.1.2_MS_Win32_bin ANN.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CFTV.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\YingchaoDoc2\codes\TV\CFTV\Debug\CFTV.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\YingchaoDoc2\codes\TV\CFTV\Debug\CFTV.lib" /MACHINE:X86 Debug\CFTV.exe.embed.manifest.res
          Debug\main.obj
        Manifest:
+         Deleting file "Debug\CFTV.exe.embed.manifest".
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\CFTV.exe.embed.manifest" /manifest Debug\CFTV.exe.intermediate.manifest
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\CFTV.exe.embed.manifest.res" Debug\CFTV_manifest.rc 
        LinkEmbedManifest:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\YingchaoDoc2\codes\TV\CFTV\Debug\CFTV.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\YingchaoDoc2\codes\ann_1.1.2_MS_Win32_bin\ann_1.1.2_MS_Win32_bin ANN.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CFTV.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\YingchaoDoc2\codes\TV\CFTV\Debug\CFTV.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\YingchaoDoc2\codes\TV\CFTV\Debug\CFTV.lib" /MACHINE:X86 Debug\CFTV.exe.embed.manifest.res
+         Debug\main.obj
          CFTV.vcxproj -> D:\YingchaoDoc2\codes\TV\CFTV\Debug\CFTV.exe
        FinalizeBuildStatus:
          Deleting file "Debug\CFTV.unsuccessfulbuild".
          Touching "Debug\CFTV.lastbuildstate".
-     1>Done Building Project "D:\YingchaoDoc2\codes\TV\CFTV\CFTV\CFTV.vcxproj" (build target(s)).
+     1>Done Building Project "D:\YingchaoDoc2\codes\TV\CFTV\CFTV\CFTV.vcxproj" (rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.70
+Time Elapsed 00:00:01.60
